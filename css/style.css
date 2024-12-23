@@ -1,0 +1,40 @@
+.grey-block {
+    width: 339px;
+    height: 81px;
+    background-color: #ECECEC;
+    padding: 29px 0 29px 27px;
+}
+.grey-descr {
+    display: inline-block;
+    vertical-align: middle;
+}
+.grey-image {
+    vertical-align: middle;
+}
+
+
+/* flex example */
+.container {
+    width: 1336px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.text-block {
+    text-align: center;
+    width: 760px;
+    background-color: lightseagreen;
+    margin: 0 auto;
+
+}
+.box {
+    width: 310px;
+    height: 430px;
+    border: 1px solid #000
+}
+.flex-row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 908px;
+    align-content: space-between;
+}
